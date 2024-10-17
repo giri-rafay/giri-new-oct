@@ -16,3 +16,4 @@ spec:
   namespace: test-wl
   placement:
     selector: rafay.dev/clusterName=giri-oct17-az1
+  version: redis-v2-202410171055070000

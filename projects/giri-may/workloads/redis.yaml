@@ -1,0 +1,10 @@
+apiVersion: apps.k8smgmt.io/v3
+kind: Workload
+metadata:
+  name: redis
+  project: giri-may
+spec:
+  artifact:
+    artifact: {}
+    type: Helm
+  namespace: test-wl

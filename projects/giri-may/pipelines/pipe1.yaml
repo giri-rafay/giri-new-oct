@@ -42,3 +42,11 @@ spec:
       systemToGitSync: true
     name: test
     type: SystemSync
+  triggers:
+  - config:
+      repo:
+        provider: Github
+        repository: giri-oct-new
+        revision: main
+    name: test
+    type: Webhook

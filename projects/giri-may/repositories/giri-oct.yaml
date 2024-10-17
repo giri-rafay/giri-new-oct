@@ -4,7 +4,15 @@ metadata:
   name: giri-oct
   project: giri-may
 spec:
+  agents:
+  - {}
+  credentials:
+    password: sealed://credentials.password
+    username: giri-rafay
+  endpoint: https://github.com/giri-rafay/giri-oct.git
   options: {}
+  secret:
+    name: file://artifacts/giri-oct/sealed-secret.yaml
   type: Git
 status:
   projects:

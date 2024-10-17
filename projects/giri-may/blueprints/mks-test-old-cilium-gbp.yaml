@@ -4,6 +4,16 @@ metadata:
   name: mks-test-old-cilium-gbp
   project: giri-may
 spec:
+  base:
+    name: default
+    version: 2.9.0
+  defaultAddons:
+    enableMonitoring: true
   driftWebhook:
     enabled: true
+  networkPolicy:
+    profile:
+      name: default
+      version: latest
   type: golden
+  version: v1

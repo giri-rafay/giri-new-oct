@@ -4,6 +4,5 @@ metadata:
   name: new
   project: giri-may
 spec:
-  autoSync: true
   repository: default-bitnami
   type: HelmRepository

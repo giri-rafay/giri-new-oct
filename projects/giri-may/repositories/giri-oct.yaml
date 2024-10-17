@@ -1,0 +1,15 @@
+apiVersion: integrations.k8smgmt.io/v3
+kind: Repository
+metadata:
+  name: giri-oct
+  project: giri-may
+spec:
+  options: {}
+  type: Git
+status:
+  projects:
+  - projectId: kno93l2
+    repositoryId: mx9ng7m
+  webhookConfig:
+    webhookSecret: 21cc2758dd186751c90c0465a4d14698e420f62873fc0184baba937df0a0d6b4
+    webhookURL: https://qc-console.stage.rafay.dev/v2/config/webhook/repository/mx9ng7m

@@ -18,5 +18,9 @@ spec:
       - name: file://artifacts/nginx-upload/values.yaml
     type: Helm
   namespace: nginx
-  sharing: {}
+  sharing:
+    enabled: true
+    projects:
+    - name: giri-nov
+    - name: giri-np
   version: v1

@@ -14,3 +14,6 @@ spec:
       timeout: 5m0s
     type: Helm
   namespace: test-wl
+  placement:
+    selector: rafay.dev/clusterName=giri-oct17-az1
+  version: redis-v1-202410171051470000

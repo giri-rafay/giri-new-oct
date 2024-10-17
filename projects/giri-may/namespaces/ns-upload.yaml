@@ -10,4 +10,12 @@ spec:
   artifact:
     path:
       name: file://ns-upload/ns-upload.yaml
+  limitRange:
+    container: {}
+    pod: {}
+  namespaceMeshPolicyParams: {}
+  placement:
+    labels:
+    - key: rafay.dev/clusterName
+      value: giri-oct17-az1
   resourceQuotas: {}

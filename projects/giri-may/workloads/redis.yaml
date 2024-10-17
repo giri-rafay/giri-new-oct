@@ -5,6 +5,12 @@ metadata:
   project: giri-may
 spec:
   artifact:
-    artifact: {}
+    artifact:
+      catalog: new-catalog-rctl-01
+      chartName: redis
+      chartVersion: 20.2.1
+    options:
+      maxHistory: 10
+      timeout: 5m0s
     type: Helm
   namespace: test-wl

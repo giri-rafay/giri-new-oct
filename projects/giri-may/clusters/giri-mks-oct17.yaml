@@ -7,7 +7,8 @@ metadata:
   project: giri-may
 spec:
   blueprint:
-    name: minimal
+    name: mks-test-old-cilium-cbp
+    version: v1
   config:
     autoApproveNodes: true
     installerTtl: 365

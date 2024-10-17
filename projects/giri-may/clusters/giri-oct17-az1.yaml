@@ -1,6 +1,8 @@
 apiVersion: infra.k8smgmt.io/v3
 kind: Cluster
 metadata:
+  labels:
+    type: aks
   name: giri-oct17-az1
   project: giri-may
 spec:

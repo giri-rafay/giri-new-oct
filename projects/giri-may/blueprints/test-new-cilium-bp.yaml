@@ -4,6 +4,21 @@ metadata:
   name: test-new-cilium-bp
   project: giri-may
 spec:
+  base:
+    name: default-aks
+    version: 2.11.0
+  defaultAddons:
+    enableMonitoring: true
+    monitoring:
+      metricsServer:
+        customizationEnabled: true
+      prometheusAdapter:
+        customizationEnabled: true
   driftWebhook:
     enabled: true
+  networkPolicy:
+    profile:
+      name: default
+      version: latest
   type: custom
+  version: v1

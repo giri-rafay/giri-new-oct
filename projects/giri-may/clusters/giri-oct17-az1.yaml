@@ -7,7 +7,8 @@ metadata:
   project: giri-may
 spec:
   blueprintConfig:
-    name: default-aks
+    name: test-new-cilium-bp
+    version: v1
   cloudCredentials: giri-aks
   config:
     kind: aksClusterConfig

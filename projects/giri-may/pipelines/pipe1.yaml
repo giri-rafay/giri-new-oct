@@ -1,0 +1,44 @@
+apiVersion: gitops.k8smgmt.io/v3
+kind: Pipeline
+metadata:
+  name: pipe1
+  project: giri-may
+spec:
+  stages:
+  - config:
+      destinationRepo: {}
+      gitToSystemSync: true
+      includedResources:
+      - name: Addon
+      - name: AddonOverride
+      - name: Blueprint
+      - name: Catalog
+      - name: Cluster
+      - name: ClusterNetworkPolicy
+      - name: ClusterNetworkPolicyRule
+      - name: Override
+      - name: CostProfile
+      - name: Agent
+      - name: Namespace
+      - name: NamespaceNetworkPolicy
+      - name: NetworkPolicyProfile
+      - name: NamespaceNetworkPolicyRule
+      - name: OPAPolicy
+      - name: Pipeline
+      - name: SecretProviderClass
+      - name: SecretStore
+      - name: SecretSealer
+      - name: Workload
+      - name: OPAConstraint
+      - name: OPAProfile
+      - name: OPAConstraintTemplate
+      - name: WorkloadTemplate
+      - name: Repository
+      - name: Resource
+      sourceAsDestination: true
+      sourceRepo:
+        repository: giri-oct-new
+        revision: main
+      systemToGitSync: true
+    name: test
+    type: SystemSync

@@ -12,3 +12,4 @@ spec:
   namespace: test-wl
   placement:
     selector: rafay.dev/clusterName=giri-oct17-az1
+  version: web-app-v3-202410170614500000

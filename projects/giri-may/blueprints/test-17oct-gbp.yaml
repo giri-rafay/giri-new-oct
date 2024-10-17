@@ -1,0 +1,9 @@
+apiVersion: infra.k8smgmt.io/v3
+kind: Blueprint
+metadata:
+  name: test-17oct-gbp
+  project: giri-may
+spec:
+  driftWebhook:
+    enabled: true
+  type: golden

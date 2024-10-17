@@ -5,8 +5,8 @@ metadata:
   project: giri-may
 spec:
   base:
-    name: test-golden-old-cilium-bp
-    version: v2
+    name: test-17oct-gbp
+    version: v1
   defaultAddons:
     enableMonitoring: true
     monitoring:
@@ -17,4 +17,4 @@ spec:
   driftWebhook:
     enabled: true
   type: custom
-  version: v1
+  version: v3

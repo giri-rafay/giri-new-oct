@@ -17,3 +17,4 @@ spec:
   namespace: nginx-workload
   placement:
     selector: rafay.dev/clusterName=giri-oct17-az1
+  version: nginx-v2-202410170554340000

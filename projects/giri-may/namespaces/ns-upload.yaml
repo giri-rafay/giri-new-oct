@@ -17,5 +17,7 @@ spec:
   placement:
     labels:
     - key: rafay.dev/clusterName
+      value: giri-mks-oct17
+    - key: rafay.dev/clusterName
       value: giri-oct17-az1
   resourceQuotas: {}
